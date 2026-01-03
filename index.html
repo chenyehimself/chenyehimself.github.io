@@ -2,43 +2,208 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chenye Wang</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: system-ui, -apple-system, sans-serif;
-      background: #111;
-      color: #eee;
-      max-width: 720px;
-      margin: 80px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
-    h1 { font-size: 2.5rem; }
-    a { color: #9ad; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <meta name="description" content="Chenye Wang — Music & Technology · Creative Coding · Audio Engineering" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Chenye Wang</h1>
-  <p>
-    Music & Technology · Creative Coding · Sound Design
-  </p>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <a href="https://chenyehimself.github.io/RetroLofiPlayer/" target="_blank">
-        Retro Lofi Player
-      </a>
-    </li>
-  </ul>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="name">Chenye Wang</div>
+        <div class="tagline">Music &amp; Technology · Creative Coding · Audio Engineering</div>
+      </div>
 
-  <h2>Links</h2>
-  <p>
-    <a href="https://github.com/chenyehimself">GitHub</a>
-  </p>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#presence">Online</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="site-main">
+    <section class="intro">
+      <div class="container intro-inner">
+        <p class="lead">
+          I work at the intersection of <strong>music, sound, and computation</strong>,
+          exploring how code can become part of musical expression rather than merely a tool.
+        </p>
+
+        <div class="intro-actions">
+          <a class="btn" href="mailto:chenyewanggg14@gmail.com">Email</a>
+          <a class="btn btn-ghost" href="#projects">View projects</a>
+        </div>
+
+        <p class="meta">
+          Contact: <a href="mailto:chenyewanggg14@gmail.com">chenyewanggg14@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="prose">
+          <p>
+            I am a creator working across <strong>music and technology</strong>, with a focus on:
+          </p>
+          <ul>
+            <li>Computer music and creative coding</li>
+            <li>Music production and audio engineering</li>
+            <li>Web-based music tools and interactive sound works</li>
+          </ul>
+          <p class="callout">
+            <strong>How can technology shape musical experience, not just enable it?</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card">
+          <div class="card-title">Johns Hopkins University · Peabody Institute</div>
+          <div class="card-subtitle">B.A. in Computer Music &amp; Computer Science (Expected 2028)</div>
+          <p class="card-body">
+            My training combines computer music, creative programming, audio technology,
+            and foundational computer science.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected Projects</h2>
+          <p class="section-note">A few works exploring sound, interaction, and computation.</p>
+        </div>
+
+        <div class="grid">
+          <article class="project card">
+            <div class="card-top">
+              <h3>Retro Lofi Player</h3>
+              <div class="pill">Web-based Lo-Fi Audio Player · 2025</div>
+            </div>
+
+            <p class="card-body">
+              A browser-based retro-style lo-fi audio player exploring the relationship between
+              <strong>listening experience, interaction design, and minimal visual language</strong>.
+            </p>
+
+            <ul class="bullets">
+              <li>Built with HTML, CSS, JavaScript, and p5.js</li>
+              <li>Focused on atmosphere and listening rather than feature density</li>
+              <li>An experimental work at the intersection of music and technology</li>
+            </ul>
+
+            <div class="links">
+              <a class="link" href="https://chenyehimself.github.io/RetroLofiPlayer/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a class="link" href="https://github.com/chenyehimself/RetroLofiPlayer" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project card">
+            <div class="card-top">
+              <h3>SoundScope</h3>
+              <div class="pill">Browser-based Audio Visualization Tool</div>
+            </div>
+
+            <p class="card-body">
+              A web-based audio visualization tool designed for music education, sound experimentation,
+              and visual feedback in performance contexts.
+            </p>
+
+            <div class="links">
+              <a class="link" href="https://chenyehimself.github.io/Soundscope/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a class="link" href="https://github.com/chenyehimself/Soundscope" target="_blank" rel="noreferrer">Source</a>
+            </div>
+
+            <p class="small subtle">
+              If your repo name differs, update the “Source” links accordingly.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="presence" class="section">
+      <div class="container">
+        <h2>Online Presence</h2>
+
+        <div class="two-col">
+          <div class="card">
+            <div class="card-title">Music Platforms</div>
+            <p class="card-body subtle">
+              Links go to artist pages. Replace the placeholders with your exact URLs.
+            </p>
+            <ul class="link-list">
+              <!-- Replace href="#" with your real artist links -->
+              <li><a href="https://open.spotify.com/artist/055kxCJczXxxkUEkvU1vrM?si=AC1IBJvwRu-79Txmh1qTiw" target="_blank" rel="noreferrer">Spotify</a></li>
+              <li><a href="https://music.163.com/#/artist?id=49589020" target="_blank" rel="noreferrer">Apple Music</a></li>
+              <li><a href="https://music.163.com/#/album?id=270277754" target="_blank" rel="noreferrer">NetEase Cloud Music</a></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Instagram</div>
+            <p class="card-body">
+              <a href="https://instagram.com/chenyewanggg14" target="_blank" rel="noreferrer">
+                instagram.com/chenyewanggg14
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="two-col">
+          <div class="card">
+            <div class="card-title">Programming &amp; Web</div>
+            <p class="card-body">
+              JavaScript · Python · C++ · HTML · CSS · Creative Coding · Web Audio
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Music Technology</div>
+            <p class="card-body">
+              Logic Pro · Ableton Live · Reaper · Audio Editing · Mixing · Mastering · Max/MSP
+            </p>
+          </div>
+        </div>
+
+        <p class="closing">
+          I am interested in building musical systems where
+          <strong>sound, interaction, and computation coexist as one expressive space</strong>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="subtle">© <span id="year"></span> Chenye Wang</div>
+      <div class="footer-links">
+        <a href="mailto:chenyewanggg14@gmail.com">Email</a>
+        <a href="https://github.com/chenyehimself" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
-
