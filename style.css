@@ -69,6 +69,41 @@ a:hover{ border-bottom-color: rgba(255,255,255,0.38); }
   padding: 16px 0;
 }
 
+/* 让锚点跳转更舒服（可选但推荐） */
+html { scroll-behavior: smooth; }
+
+/* 避免点击 About 后标题被 sticky header 挡住（很关键） */
+.section { scroll-margin-top: 90px; }
+
+/* Header 动画过渡 */
+.site-header,
+.header-inner,
+.tagline{
+  transition: all 220ms ease;
+}
+
+/* 收缩态：给 header 加 .is-shrunk 后生效 */
+.site-header.is-shrunk{
+  background: rgba(11,12,16,0.82);
+  backdrop-filter: blur(14px);
+}
+
+.site-header.is-shrunk .header-inner{
+  padding: 8px 0;              /* 原来是 16px 0，会变矮 */
+}
+
+.site-header.is-shrunk .tagline{
+  opacity: 0;
+  transform: translateY(-4px);
+  height: 0;
+  margin-top: 0;
+  overflow: hidden;            /* 防止占位 */
+}
+
+.site-header.is-shrunk .nav a{
+  padding: 4px 0;              /* 导航也稍微紧凑一点 */
+}
+
 .name{
   font-size: 18px;
   letter-spacing: 0.2px;
@@ -93,6 +128,18 @@ a:hover{ border-bottom-color: rgba(255,255,255,0.38); }
   padding: 6px 0;
 }
 .nav a:hover{ color: var(--text); border-bottom-color: rgba(255,255,255,0.25); }
+
+/* 当前区块高亮（方案1：滚动自动高亮） */
+.nav a.active{
+  color: var(--text);
+  border-bottom-color: rgba(255,255,255,0.55);
+}
+
+.nav a:focus-visible{
+  outline: 2px solid rgba(122,162,255,0.65);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
 
 .site-main{
   padding: 26px 0 60px;
@@ -301,4 +348,9 @@ a:hover{ border-bottom-color: rgba(255,255,255,0.38); }
   .project{ grid-column: span 12; }
   .two-col{ grid-template-columns: 1fr; }
   .header-inner{ align-items: flex-start; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
 }

@@ -147,7 +147,7 @@
             <ul class="link-list">
               <!-- Replace href="#" with your real artist links -->
               <li><a href="https://open.spotify.com/artist/055kxCJczXxxkUEkvU1vrM?si=AC1IBJvwRu-79Txmh1qTiw" target="_blank" rel="noreferrer">Spotify</a></li>
-              <li><a href="https://music.163.com/#/artist?id=49589020" target="_blank" rel="noreferrer">Apple Music</a></li>
+              <li><a href="https://music.apple.com/us/artist/chenye-wang/1783731237?l=zh-Hans-CN">Apple Music</a></li>
               <li><a href="https://music.163.com/#/album?id=270277754" target="_blank" rel="noreferrer">NetEase Cloud Music</a></li>
             </ul>
           </div>
@@ -204,6 +204,19 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  
+  <script>
+  const header = document.querySelector(".site-header");
+
+  function updateHeader() {
+    // 你可以把 80 改成 40/120 来控制“滚多远才收缩”
+    header.classList.toggle("is-shrunk", window.scrollY > 80);
+  }
+  
+
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader(); // 刷新页面时也立刻更新一次
   </script>
 </body>
 </html>
