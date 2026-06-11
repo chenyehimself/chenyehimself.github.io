@@ -1,222 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chenye Wang</title>
-  <meta name="description" content="Chenye Wang — Music & Technology · Creative Coding · Audio Engineering" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chenye Wang creates music and builds creative systems across AI music, audio technology, and creative coding.">
+  <meta name="theme-color" content="#08090d">
+  <title>Chenye Wang — Music, Code, and Creative Systems</title>
+  <link rel="icon" href="assets/cw-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
 
   <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="name">Chenye Wang</div>
-        <div class="tagline">Music &amp; Technology · Creative Coding · Audio Engineering</div>
-      </div>
-
-      <nav class="nav" aria-label="Primary">
+    <div class="container nav-inner">
+      <a class="wordmark" href="#top" aria-label="Chenye Wang, home">
+        <img class="wordmark-logo" src="assets/cw-mark.svg" alt="">
+        Chenye Wang
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#music">Music</a>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#presence">Online</a>
-        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="content" class="site-main">
-    <section class="intro">
-      <div class="container intro-inner">
-        <p class="lead">
-          I work at the intersection of <strong>music, sound, and computation</strong>,
-          exploring how code can become part of musical expression rather than merely a tool.
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow hero-eyebrow"><span></span> Musician · Creative Technologist</p>
+        <h1>Chenye<br>Wang</h1>
+        <p class="hero-statement">Music, code, and <em>creative systems.</em></p>
+        <p class="hero-copy">
+          I create music and build tools for musical expression — from web-based audio
+          experiments to AI-assisted hip-hop creation systems.
         </p>
-
-        <div class="intro-actions">
-          <a class="btn" href="mailto:chenyewanggg14@gmail.com">Email</a>
-          <a class="btn btn-ghost" href="#projects">View projects</a>
+        <p class="hero-school">Currently studying Computer Music at Johns Hopkins University’s Peabody Institute.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#work">View Work <span aria-hidden="true">↘</span></a>
+          <a class="button" href="#music">Listen <span aria-hidden="true">♪</span></a>
+          <a class="button button-text" href="mailto:chenyewanggg14@gmail.com">Contact <span aria-hidden="true">↗</span></a>
         </div>
-
-        <p class="meta">
-          Contact: <a href="mailto:chenyewanggg14@gmail.com">chenyewanggg14@gmail.com</a>
-        </p>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <div class="prose">
-          <p>
-            I am a creator working across <strong>music and technology</strong>, with a focus on:
-          </p>
-          <ul>
-            <li>Computer music and creative coding</li>
-            <li>Music production and audio engineering</li>
-            <li>Web-based music tools and interactive sound works</li>
-          </ul>
-          <p class="callout">
-            <strong>How can technology shape musical experience, not just enable it?</strong>
-          </p>
+        <div class="hero-index" aria-hidden="true">
+          <span>01</span>
+          <div></div>
+          <span>08</span>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="work">
       <div class="container">
-        <h2>Education</h2>
-        <div class="card">
-          <div class="card-title">Johns Hopkins University · Peabody Institute</div>
-          <div class="card-subtitle">B.A. in Computer Music &amp; Computer Science (Expected 2028)</div>
-          <p class="card-body">
-            My training combines computer music, creative programming, audio technology,
-            and foundational computer science.
-          </p>
-        </div>
-      </div>
-    </section>
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">01 · Featured Work</p>
+            <h2>Selected projects</h2>
+          </div>
+          <p>Across AI music, creative coding, audio tools, and original music.</p>
+        </header>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Selected Projects</h2>
-          <p class="section-note">A few works exploring sound, interaction, and computation.</p>
-        </div>
-
-        <div class="grid">
-          <article class="project card">
-            <div class="card-top">
-              <h3>Retro Lofi Player</h3>
-              <div class="pill">Web-based Lo-Fi Audio Player · 2025</div>
+        <div class="work-grid">
+          <article class="project-card project-featured">
+            <div class="project-glow" aria-hidden="true"></div>
+            <div class="project-topline">
+              <span class="badge">Featured Project</span>
+              <span class="project-number">01 / 04</span>
             </div>
-
-            <p class="card-body">
-              A browser-based retro-style lo-fi audio player exploring the relationship between
-              <strong>listening experience, interaction design, and minimal visual language</strong>.
-            </p>
-
-            <ul class="bullets">
-              <li>Built with HTML, CSS, JavaScript, and p5.js</li>
-              <li>Focused on atmosphere and listening rather than feature density</li>
-              <li>An experimental work at the intersection of music and technology</li>
-            </ul>
-
-            <div class="links">
-              <a class="link" href="https://chenyehimself.github.io/RetroLofiPlayer/" target="_blank" rel="noreferrer">Live Demo</a>
-              <a class="link" href="https://github.com/chenyehimself/RetroLofiPlayer" target="_blank" rel="noreferrer">Source</a>
+            <div class="project-featured-layout">
+              <div>
+                <p class="project-label">AI Music · Hip-Hop · Product Direction</p>
+                <h3>Lyra</h3>
+                <p class="project-description">
+                  An AI-assisted hip-hop creation platform built for creators with taste,
+                  intention, and a desire to shape every detail.
+                </p>
+              </div>
+              <div class="project-details">
+                <div>
+                  <span>Role</span>
+                  <p>Founder / Product Direction / System Design</p>
+                </div>
+                <div>
+                  <span>Focus</span>
+                  <p>Creative control, lyric-to-music workflows, MIDI-based beat generation, and AI-assisted music interaction.</p>
+                </div>
+                <a class="arrow-link" href="https://lyrapro.ai" target="_blank" rel="noreferrer">Visit Lyra <span aria-hidden="true">↗</span></a>
+              </div>
             </div>
           </article>
 
-          <article class="project card">
-            <div class="card-top">
-              <h3>SoundScope</h3>
-              <div class="pill">Browser-based Audio Visualization Tool</div>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-label">Production · Composition · Releases</span>
+              <span class="project-number">02 / 04</span>
             </div>
+            <h3>Original Music</h3>
+            <p class="project-description">Original music and production work exploring mood, texture, rhythm, and electronic sound.</p>
+            <a class="arrow-link" href="#music">Listen <span aria-hidden="true">↓</span></a>
+          </article>
 
-            <p class="card-body">
-              A web-based audio visualization tool designed for music education, sound experimentation,
-              and visual feedback in performance contexts.
-            </p>
-
-            <div class="links">
-              <a class="link" href="https://chenyehimself.github.io/Soundscope/" target="_blank" rel="noreferrer">Live Demo</a>
-              <a class="link" href="https://github.com/chenyehimself/Soundscope" target="_blank" rel="noreferrer">Source</a>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-label">Audio Visualization · Creative Coding</span>
+              <span class="project-number">03 / 04</span>
             </div>
+            <h3>SoundScope</h3>
+            <p class="project-description">An audio visualization and feedback project exploring how sound can be represented, analyzed, and experienced visually.</p>
+            <a class="arrow-link" href="https://chenyehimself.github.io/Soundscope/" target="_blank" rel="noreferrer">View Project <span aria-hidden="true">↗</span></a>
+          </article>
 
-            <p class="small subtle">
-              If your repo name differs, update the “Source” links accordingly.
-            </p>
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-label">Web Audio · Interface Design · p5.js</span>
+              <span class="project-number">04 / 04</span>
+            </div>
+            <h3>Retro Lofi Player</h3>
+            <p class="project-description">A web-based lofi listening interface inspired by retro visual systems, ambient interaction, and browser-based audio experiences.</p>
+            <a class="arrow-link" href="https://chenyehimself.github.io/RetroLofiPlayer/" target="_blank" rel="noreferrer">View Project <span aria-hidden="true">↗</span></a>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="presence" class="section">
-      <div class="container">
-        <h2>Online Presence</h2>
-
-        <div class="two-col">
-          <div class="card">
-            <div class="card-title">Music Platforms</div>
-            <p class="card-body subtle">
-              Links go to artist pages. Replace the placeholders with your exact URLs.
-            </p>
-            <ul class="link-list">
-              <!-- Replace href="#" with your real artist links -->
-              <li><a href="https://open.spotify.com/artist/055kxCJczXxxkUEkvU1vrM?si=AC1IBJvwRu-79Txmh1qTiw" target="_blank" rel="noreferrer">Spotify</a></li>
-              <li><a href="https://music.apple.com/us/artist/chenye-wang/1783731237?l=zh-Hans-CN">Apple Music</a></li>
-              <li><a href="https://music.163.com/#/album?id=270277754" target="_blank" rel="noreferrer">NetEase Cloud Music</a></li>
-            </ul>
+    <section class="section music-section" id="music">
+      <div class="container music-layout">
+        <div>
+          <p class="eyebrow">02 · Music</p>
+          <h2>Sound as an<br><em>emotional language.</em></h2>
+          <p class="music-copy">
+            I release and produce music under my own name, working across hip-hop,
+            electronic textures, and emotionally driven sound design.
+          </p>
+          <p class="music-note">Original releases and production work under Chenye Wang.</p>
+          <div class="platform-links" aria-label="Music platforms">
+            <a href="https://open.spotify.com/artist/055kxCJczXxxkUEkvU1vrM?si=AC1IBJvwRu-79Txmh1qTiw" target="_blank" rel="noreferrer">Spotify <span>↗</span></a>
+            <a href="https://music.apple.com/us/artist/chenye-wang/1783731237?l=zh-Hans-CN" target="_blank" rel="noreferrer">Apple Music <span>↗</span></a>
+            <a href="https://music.163.com/#/album?id=270277754" target="_blank" rel="noreferrer">NetEase Music <span>↗</span></a>
           </div>
+        </div>
+        <div class="music-visual">
+          <div class="dream-light dream-light-one" aria-hidden="true"></div>
+          <div class="dream-light dream-light-two" aria-hidden="true"></div>
+          <div class="light-orbit light-orbit-one" aria-hidden="true"></div>
+          <div class="light-orbit light-orbit-two" aria-hidden="true"></div>
+          <div class="album-frame">
+            <img src="assets/love-whispers-cover.jpg" alt="Love Whispers album cover by Chenye Wang">
+            <span class="album-shine" aria-hidden="true"></span>
+          </div>
+          <p class="album-caption"><span>Love Whispers</span><small>Original release · Chenye Wang</small></p>
+        </div>
+      </div>
+    </section>
 
-          <div class="card">
-            <div class="card-title">Instagram</div>
-            <p class="card-body">
-              <a href="https://instagram.com/chenyewanggg14" target="_blank" rel="noreferrer">
-                instagram.com/chenyewanggg14
-              </a>
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">03 · About</p>
+        <div class="about-layout">
+          <h2>Technology should expand <em>authorship,</em> not replace it.</h2>
+          <div class="about-copy">
+            <p>
+              I am a Computer Music student at Johns Hopkins University’s Peabody Institute,
+              working across music production, creative coding, audio technology, and
+              AI-assisted music systems.
             </p>
+            <p>
+              My work focuses on how technology can expand musical authorship rather than
+              replace it. I am interested in tools that help people express intent, shape
+              sound, and stay in control of the creative process.
+            </p>
+            <p>As both a musician and builder, I care about taste, detail, and the emotional texture of sound.</p>
+            <div class="education">
+              <span>Education</span>
+              <p>Johns Hopkins University · Peabody Institute<br><small>Computer Music &amp; Computer Science · Expected 2028</small></p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <section class="section focus-section" id="focus">
       <div class="container">
-        <h2>Skills</h2>
-
-        <div class="two-col">
-          <div class="card">
-            <div class="card-title">Programming &amp; Web</div>
-            <p class="card-body">
-              JavaScript · Python · C++ · HTML · CSS · Creative Coding · Web Audio
-            </p>
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">04 · Technical Focus</p>
+            <h2>Tools for expression</h2>
           </div>
+          <p>Technology in service of creative intent.</p>
+        </header>
 
-          <div class="card">
-            <div class="card-title">Music Technology</div>
-            <p class="card-body">
-              Logic Pro · Ableton Live · Reaper · Audio Editing · Mixing · Mastering · Max/MSP
-            </p>
-          </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="focus-number">01</span>
+            <h3>Creative Coding</h3>
+            <p>Interactive systems, visual interfaces, browser-based audio experiments, and generative media.</p>
+            <ul><li>JavaScript</li><li>p5.js</li><li>HTML</li><li>CSS</li><li>Web Audio</li></ul>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">02</span>
+            <h3>Audio Technology</h3>
+            <p>Sound design, music production, mixing workflows, and computational approaches to audio.</p>
+            <ul><li>Ableton Live</li><li>Logic Pro</li><li>Reaper</li><li>Max/MSP</li></ul>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">03</span>
+            <h3>AI Music Systems</h3>
+            <p>Product and system design for AI-assisted music creation, MIDI generation, and creative control interfaces.</p>
+            <ul><li>LLMs</li><li>MIDI</li><li>Prompt Systems</li><li>Music Pipelines</li></ul>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">04</span>
+            <h3>Computer Science</h3>
+            <p>Foundational programming, software architecture, and tool-building for creative applications.</p>
+            <ul><li>Python</li><li>C</li><li>C++</li><li>Git</li><li>GitHub</li></ul>
+          </article>
         </div>
+      </div>
+    </section>
 
-        <p class="closing">
-          I am interested in building musical systems where
-          <strong>sound, interaction, and computation coexist as one expressive space</strong>.
-        </p>
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 · Contact</p>
+        <h2>Let’s build something <em>musical.</em></h2>
+        <p>For collaboration, music, creative technology, or AI music projects, feel free to reach out.</p>
+        <a class="contact-email" href="mailto:chenyewanggg14@gmail.com">
+          <span>chenyewanggg14@gmail.com</span><span aria-hidden="true">↗</span>
+        </a>
+        <div class="social-links">
+          <a href="https://github.com/chenyehimself" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://instagram.com/chenyewanggg14" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://open.spotify.com/artist/055kxCJczXxxkUEkvU1vrM?si=AC1IBJvwRu-79Txmh1qTiw" target="_blank" rel="noreferrer">Spotify</a>
+          <a href="https://music.163.com/#/album?id=270277754" target="_blank" rel="noreferrer">NetEase Music</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="subtle">© <span id="year"></span> Chenye Wang</div>
-      <div class="footer-links">
-        <a href="mailto:chenyewanggg14@gmail.com">Email</a>
-        <a href="https://github.com/chenyehimself" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
+      <div><strong>Chenye Wang</strong><span>Music, code, and creative systems.</span></div>
+      <p>© <span id="year">2026</span> Chenye Wang</p>
     </div>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-  
-  <script>
-  const header = document.querySelector(".site-header");
-
-  function updateHeader() {
-    // 你可以把 80 改成 40/120 来控制“滚多远才收缩”
-    header.classList.toggle("is-shrunk", window.scrollY > 80);
-  }
-  
-
-  window.addEventListener("scroll", updateHeader, { passive: true });
-  updateHeader(); // 刷新页面时也立刻更新一次
   </script>
 </body>
 </html>
