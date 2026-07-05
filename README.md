@@ -2,11 +2,11 @@
 
 This is the source code for my personal website: chenyewang.com
 
-The site presents my work across music, creative coding, audio technology, and AI-assisted music systems. It is designed as a personal brand website rather than a traditional resume page, highlighting both my artistic identity and my technical direction.
+The site presents my work across music, creative coding, audio technology, and music product design. It is designed as a personal brand website rather than a traditional resume page, highlighting both my artistic identity and my technical direction.
 
 ## About
 
-I am a Computer Music student at Johns Hopkins University’s Peabody Institute, working across music production, creative coding, audio technology, and AI-assisted music systems.
+I am a Computer Music student at Johns Hopkins University’s Peabody Institute, working across music production, creative coding, audio technology, and music product design.
 
 My work focuses on how technology can expand musical authorship rather than replace it. I am interested in tools that help people express intent, shape sound, and stay in control of the creative process.
 
@@ -14,10 +14,10 @@ My work focuses on how technology can expand musical authorship rather than repl
 
 ### Lyra
 
-An AI-assisted hip-hop creation platform built for creators with taste, intention, and a desire to shape every detail.
+A music creation platform shaped around taste, intent, and the feeling of staying close to every creative decision.
 
 Role: Founder / Product Direction / System Design  
-Focus: Creative control, lyric-to-music workflows, MIDI-based beat generation, and AI-assisted music interaction.
+Focus: Creative direction, artist-centered interaction, expressive control, and tools that keep the creator’s taste at the center.
 
 ### Original Music
 
@@ -40,7 +40,7 @@ A web-based lofi listening interface inspired by retro visual systems, ambient i
   Sound design, music production, mixing workflows, and computational approaches to audio.
 
 - AI Music Systems  
-  Product and system design for AI-assisted music creation, MIDI generation, and creative control interfaces.
+  Product thinking for music tools that support authorship, taste, and expressive decision-making.
 
 - Computer Science  
   Foundational programming, software architecture, and tool-building for creative applications.
